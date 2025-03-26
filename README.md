@@ -1,1 +1,5 @@
-# Q1Project
+Strokes are medical emergencies that require rapid and accurate diagnosis to ensure effective treatment. The sooner a stroke is recognized and cared for, the better the outcome is likely to be. Currently, the process of diagnosis of a stroke in clinical settings can be enhanced by predictive modeling, which can help in identifying potential stroke incidentes before they become critical.
+
+The goal of our project is to develop a machine learning model capable of detecting whether or not a patient is at risk of experiencing a stroke by analyzing a host of patient health and lifestyle features from a stroke dataset. This dataset includes detailed patient information such as patient age, gender, cholesterol levels, blood pressure, etc.  Utilizing this data, after necessary preprocessing to deal with missing values, inconsistent data types, etc., a predictive model is created to best identify whether or not a given individual is at risk for stroke or not.
+
+The final dataset we used is named stroke_dataset.csv, found in this repo. Q1Project.ipynb contains code used to preprocess the original dataset and split it into train/test/eval sets for each classifier. These splits are found within the Classification Files folder. As detailed in the paper, all models were created and run within WEKA, so no code was used for that part.
